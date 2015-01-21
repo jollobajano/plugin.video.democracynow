@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.democracynow"
+       name="Democracy Now"
+       version="1.0.0"
+       provider-name="Mats Nyberg &lt;info@jollobajano.com&gt;">
+  <requires>
+    <import addon="xbmc.python" version="2.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">A daily TV/radio news program, hosted by Amy Goodman and Juan Gonzalez, airing on over 1,100 stations, pioneering the largest community media collaboration in the United States.</summary>
+    <description lang="en">A daily TV/radio news program, hosted by Amy Goodman and Juan Gonzalez, airing on over 1,100 stations, pioneering the largest community media collaboration in the United States.</description>
+    <platform>all</platform>
+    <language>en</language>
+    <email>info@jollobajano.com</email>
+  </extension>
+</addon>
