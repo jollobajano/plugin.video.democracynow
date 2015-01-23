@@ -2,7 +2,7 @@ plugin.video.democracynow
 =========================
 
 
-Democracy Now RSS feed for the XBMC/Kodi media center.
+Democracy Now video RSS feed add-on for the XBMC/Kodi media center.
 
 Kodi (formally known as XBMC) is an award-winning free and open source
 (GPL) software media player and entertainment hub that can be
