@@ -10,12 +10,6 @@ addon_handle = int(sys.argv[1])
 args = urlparse.parse_qs(sys.argv[2][1:])
 
 xbmcplugin.setContent(addon_handle, 'movies')
-
-def build_url(query):
-    return base_url + '?' + urllib.urlencode(query)
-
-mode = args.get('mode', None)
-
 channel = fetchchannel.fetchChannel()
 
 for item in channel['items']:
